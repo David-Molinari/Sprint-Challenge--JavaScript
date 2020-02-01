@@ -6,7 +6,7 @@
   object name, diet, weight, length, period
 */
 
-var tyran = {name: 'tyrannosaurus', diet: 'carnivorous', weight: '7000kg', weight: '12m', period: 'Late Cretaceous'};
+var tyran = {name: 'tyrannosaurus', diet: 'carnivorous', weight: '7000kg', length: '12m', period: 'Late Cretaceous'};
 
 var stego = {name: 'stegosaurus', diet: 'herbivorous', wieght: '2000kg', length: '9m', period: 'Late Jurassic'};
 
@@ -86,12 +86,6 @@ console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. 
 Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
-
-/* const unisWithUni = graduates.map((state) => {
-  if (state.university.includes('Uni')) {
-    return state;
-  }
-});*/
 
 const unisWithUni = []
 
